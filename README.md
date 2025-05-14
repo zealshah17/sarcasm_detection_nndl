@@ -1,5 +1,3 @@
-# sarcasm_detection_nndl
-
 # Sarcasm Detection Under Low-Resource Settings
 
 This repository explores sarcasm detection using two complementary deep learning approaches designed for low-resource settings:
