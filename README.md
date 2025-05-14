@@ -24,6 +24,19 @@ Both models significantly outperform the baselines on sarcasm detection tasks.
 
 ---
 
+## Dataset
+
+This project uses the [**Sarcasm Headlines Multilingual**](https://huggingface.co/datasets/helinivan/sarcasm_headlines_multilingual) dataset available on Hugging Face.
+
+- The dataset contains sarcastic and non-sarcastic news headlines across multiple languages.
+- For our experiments, we filter and use only the **English** subset.
+- Each example includes:
+  - `article_title`: the news headline
+  - `is_sarcastic`: binary label indicating sarcasm (1) or not (0)
+
+---
+
+
 ## How to Run the Graph Transformer
 
 1. Navigate to the `graph/` directory.
